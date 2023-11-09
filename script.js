@@ -45,7 +45,7 @@ function multiply(){
     }
 
     if (!isNaN(n1) && !isNaN(n2)) {
-        let answer = n1 + n2;
+        let answer = n1 * n2;
         calcanswer.textContent = answer; 
         calcanswer.classList.remove("error");
     }
